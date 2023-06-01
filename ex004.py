@@ -1,0 +1,3 @@
+n = input('Digite qualquer coisa ')
+
+print('Voce digitou {}. \n Isso é do tipo {} \n É alfabetico? {} \n É alfanumerico? {} \n Está em letars maiusculas? {} \n Está em letras minusculas? {} \n Com a primeira letra maiuscula: {} \n Quantidade de caracteres: {} \n Só tem espaços? {} \n Está capitalizada? {}'.format(n, type(n), n.isalpha(), n.isalnum(), n.islower(), n.isupper(), n.capitalize(), len(n), n.isspace(), n.istitle()))
